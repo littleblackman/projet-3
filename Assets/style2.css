@@ -1,0 +1,160 @@
+/* Feuille de style */
+body {
+	background-color: #FFFBD4;
+}
+#banniere {
+	background: url('globe.jpg') no-repeat;
+	background-size: cover;
+	height: 300px;
+	border-radius: 15px;
+}
+.logo{
+	height: 55px;
+	width: 45px;
+}
+h1 {
+	font-size: 3.5em;
+}
+h2 {
+	font-size: 2em;
+	padding-left: 8px;
+}
+h1, h2, nav li, nav, nav ul, nav a {
+	display: inline;
+	font-family: Clicker Script, serif;
+	color: white;
+	text-decoration: none;
+}
+#title-header {
+	margin-top: 150px;
+	color: white;
+	font-size: 1.5em;
+}
+nav  {
+	float: right;
+	list-style-type: none;
+	padding: 0.5em 0.8em;
+}
+nav li {
+	padding: 0.3em;
+	font-size: 1.2em;
+}
+.bloc-resume {
+	display: inline-block;
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+	border-radius: 10px;
+	height: 560px;
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+.polaroid {
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	border-bottom: 0;
+}
+
+.chapitre, h3 {
+	display: inline-block;
+	background-color: #a97e25;
+	width: 300px;
+	height: 35px;
+	margin: 0;
+	padding-top: 2px;
+}
+.resume {
+	width: 300px;
+	height: 250px;
+	text-align: justify;
+	overflow: hidden;
+	padding-top: 3px;
+}
+article {
+	height: 250px;
+}
+footer {
+	background-color: #8db877;
+	border: 1px solid #8db877;
+	border-radius: 20px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#footerleft {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	float: left;
+	height: 150px;
+	width: 33%;
+	background-color: #8db877;
+	border: 1px solid #8db877;
+}
+h4 {
+	position: relative;
+	text-align: center;
+	height: 10px;
+	width: 175px;
+	padding-top: 5px;
+}
+/*ul {
+	position: relative;
+	margin: auto;
+	padding-top: 30px;
+	height: 35px;
+
+}*/
+#footermiddle{
+	display: inline-flex;
+	align-items: center;
+	height: 150px;
+	width: 33%;
+	background-color: #8db877;
+}
+#icones {
+ 	display: inline-flex;
+ 	padding-bottom: 0;
+ }
+#footerright {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	float: right;
+	height: 150px;
+	width: 33%;
+	background-color: #8db877;
+	border: 1px solid #8db877;
+}
+p {
+	font-size: 1.2em;
+	padding-top: 2px;
+	text-align: center;
+}
+.contenu {
+
+}
+.title {
+	position: inline-flex;
+	text-align: center;
+	font-size: 2em;
+	border: 3px #8db877 groove;
+	margin-top: 15px;
+}
+.picture {
+	display: inline-block;
+	float : left;
+	width: 400px;
+	height: 350px;
+	border-bottom: 0;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.story {
+	text-align: justify;
+}
+
+
+
