@@ -5,6 +5,10 @@ error_reporting(E_ALL);
 include_once('Chapter.php');
 require_once('Manager.php');
 
+/*
+* get all posts
+*@return ArrayCollection()
+*/
 function getAllPosts()
 { 
 	$manager = new Manager();
@@ -20,9 +24,12 @@ function getAllPosts()
 				$posts[] = $post;
 	}
 	return $posts;
-	require('View/accueilView.php');
 }
-
+/**
+* get chapter
+*@param $id
+*@return Array()
+*/
 function getChapters($id)
 { 
 	$manager = new Manager();
@@ -33,6 +40,5 @@ function getChapters($id)
 	$chapter = $req->fetch();
 
 	return $chapter;
-	require('View/chaptersView.php');
 }
 
