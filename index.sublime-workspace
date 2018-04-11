@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nb",
+				"nb3"
+			],
+			[
+				"co",
+				"console.log(12\t(cours.js)"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-spacing"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"il",
+				"inline-flex"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font",
+				"font-kerning"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"boot",
+				"bootstrap"
+			],
+			[
+				"mes",
+				"mes_recettes"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 169.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 407.0
+	},
+	"console":
+	{
+		"height": 200.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/****P3/Sites/Archives_ens/Archive 7:11:17/index.php",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/triangle.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/triangle.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/fizzbuzz.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/fizzbuzz.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/oui_non.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/oui_non.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/multiplication_2.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/multiplication_2.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/multiplication.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/saisie_2.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/saisie_2.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/saisie.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/saisie.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/manege.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/manege.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/parite.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/parite.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/parite_2.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/parite_2.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/heure.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/heure.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/nombre_jours.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/nombre_jours.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/valeurs_finales.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/valeurs_finales.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/baccalaureat.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/baccalaureat.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/comparaison.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/comparaison.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/jour_suivant.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/permutation.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/jour_suivant.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/permutation.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/conversion.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/conversion.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/tva.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/tva.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/valeurs2.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/valeurs2.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/presentation.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/presentation.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/calculette.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/calculette.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/valeurs.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/valeurs.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/html/bonjour.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/recapitulatif/js/bonjour.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_6/js/cours.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_6/js/mot.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_6/html/mot.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_6/html/cours.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_5/html/cercle.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_5/js/cercle.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_5/js/carre.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_5/js/minimum.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_5/html/minimum.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_5/html/bonjour.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_5/html/carre.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_5/js/bonjour.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/****P3/Sites/En_cours/Recettes/datas.php",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/****P3/Sites/En_cours/Recettes/index.php",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/multiplication.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/fizzbuzz.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/fizzbuzz.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/multiplicationfor.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/oui_non.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/triangle_for.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/triangle_while.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/oui_non.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/triangle_while.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/triange_for.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/multiplication2.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/multiplication.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/saisie2.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/saisie.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/manege.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/manege2.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/parite.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/parite.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/saisie.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/manege2.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/manege.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/html/cours.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_4/js/cours.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/meteo.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/correction.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/comparaison.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/html/comparaison.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/baccalaureat.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/valeursfinales.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/nombre_jours.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/html/nombre_jours.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/html/valeursfinales.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/html/baccalaureat.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/html/jour_suivant2.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/jour_suivant2.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/html/cours.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/html/jour_suivant.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/jour_suivant.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_3/js/cours.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_1/html/calculette.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_1/js/valeurs.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/js/cours.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/html/bonjour.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/js/bonjour.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/js/valeurs.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/js/tva.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/html/conversion.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/html/tva.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/js/conversion.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/js/permutation.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/html/valeurs.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/html/permutation.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_1/html/cours.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_2/html/cours.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_1/html/valeurs.html",
+		"/Users/EveMarieThomasse/Library/Application Support/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/Users/EveMarieThomasse/Library/Application Support/Sublime Text 3/Packages/User/All Autocomplete.sublime-settings",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_1/js/presentation.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_1/js/calculette.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_1/html/presentation.html",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/intro-javascript/chapitre_1/js/cours.js",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/****P3/Sites/En_cours/Recettes/functions.php",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/****P3/Projet 3/Archives/Exos Sandy mes recettes/mesrecettesbdd1.php",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/****P3/Sites/En cours/Recettes/assets/datas.php",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/****P3/Sites/En cours/Recettes/assets/fonctions.php",
+		"/Users/EveMarieThomasse/Documents/Perso/Mes documents/Formation/Formation en cours/****P3/Sites/En cours/Recettes/assets/index.php"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -3,7 +3,7 @@ body {
 	background-color: #FFFBD4;
 }
 #banniere {
-	background: url('globe.jpg') no-repeat;
+	background: url('../images/globe.jpg') no-repeat;
 	background-size: cover;
 	height: 300px;
 	border-radius: 15px;

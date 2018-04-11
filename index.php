@@ -1,19 +1,27 @@
 <?php
 require_once('Controller/controller.php');
 
-if (isset($_GET['action'])) {
-	if ($_GET['action'] == 'listPosts') {
-		listPosts();
-	}
-	elseif ($_GET['action'] == 'chapter') {
-		if (isset($_GET['id']) && $_GET['id'] >0) {
-			chapter();
+try {
+	if (isset($_GET['action'])) {
+		if ($_GET['action'] == 'listPosts') {
+			$controller = new Controller();
+			$listPosts = $controller->listPosts();
 		}
-		else {
-			echo 'Erreur : aucun identifiant de billet envoyé';
+		elseif ($_GET['action'] == 'chapter') {
+			if (isset($_GET['id']) && $_GET['id'] >0) {
+			 	$controller = new Controller();
+			 	$chapterAction = $controller->chapterAction();
+			}
 		}
+			else {
+				throw new Exception('Aucun identifiant de billet envoyé');
+			}
+		}
+	else {
+		$controller = new Controller();
+		$listPosts = $controller->listPosts();
 	}
 }
-else {
-	listPosts();
+catch(Exception $e) {
+	echo 'Erreur : '. $e->getMessage();
 }

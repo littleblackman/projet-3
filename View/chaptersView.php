@@ -3,17 +3,15 @@
 
 	<div class="contenu">
 		<div class="title">
-			<?php echo $chapter['number'];?>
+			<?php echo $chapterAction['number'];?>
 		</div>
-			<img class="picture" img src="<?php echo $chapter['picture'];?>" alt="Alaska" title="<?php echo $chapter['number'];?>" />
+			<img class="picture" img src="<?php echo $chapterAction['picture'];?>" alt="Alaska" title="<?php echo $chapterAction['number'];?>" />
 			<section> 
 				<div class="story">
-					<p><?php echo $chapter['contents']; ?></p>
+					<p><?php echo $chapterAction['contents']; ?></p>
 				</div>
 			</section> 
-	</div>	
-
-	</body>
+	</div>
 	
 	<?php require('_footer.php');?>
-</html>
+
