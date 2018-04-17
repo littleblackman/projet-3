@@ -34,5 +34,14 @@ class ChapterManager extends Manager
 
 		return $chapter;
 	}
+		public function dbAddChapter($id, $picture, $number, $contents)
+	{
+		$db = $this->dbConnect();
+		$req = $db->prepare('INSERT INTO novel (id, number, picture, contents) VALUES ($id, $picture, $number, $contents)');
+		$chapterAdding = $req->execute(array($id, $picture, $number, $contents));
+
+		return $chapterAdding;
+
+	}
 }
 

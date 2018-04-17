@@ -17,10 +17,20 @@ try {
 				throw new Exception('Aucun identifiant de billet envoyé');
 			}
 		}
-	else {
-		$controller = new Controller();
-		$listPosts = $controller->listPosts();
-	}
+		elseif ($_GET['action'] == 'addChapter') {
+			if (isset($_GET['action'] == 'addChapter') && $_GET['id'] > 0) {
+				$controller = new Controller();
+				$chapterAdding = $controller->addChapter();
+			}
+		}
+			else {
+					echo 'Erreur : tous les champs ne sont pas remplis !';
+				}
+		}
+		else {
+			$controller = new Controller();
+			$listPosts = $controller->listPosts();
+		}
 }
 catch(Exception $e) {
 	echo 'Erreur : '. $e->getMessage();

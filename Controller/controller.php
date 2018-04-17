@@ -18,4 +18,11 @@ class Controller
 		$chapterAction = $chapter->getChapters($_GET['id']);
 		require('View/chaptersView.php');
 	}
+
+	public function addChapter($id, $number, $picture, $contents)
+	{
+		$AddChapter = new ChapterManager();
+		$chapterAdding = dbAddChapter($id, $picture, $number, $contents);
+		require('View/backendView.php');
+	}
 }
