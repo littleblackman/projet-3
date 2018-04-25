@@ -9,29 +9,31 @@ try {
 		}
 		elseif ($_GET['action'] == 'chapter') {
 			if (isset($_GET['id']) && $_GET['id'] >0) {
-			 	$controller = new Controller();
-			 	$chapterAction = $controller->chapterAction();
+				$controller = new Controller();
+				$chapterAction = $controller->chapterAction();
 			}
-		}
 			else {
 				throw new Exception('Aucun identifiant de billet envoyé');
 			}
 		}
-		elseif ($_GET['action'] == 'addChapter') {
-			if (isset($_GET['action'] == 'addChapter') && $_GET['id'] > 0) {
-				$controller = new Controller();
-				$chapterAdding = $controller->addChapter();
+		elseif ($_GET['action'] == 'adminView') {
+			if ($_GET['action'] == 'adminView') {
+				require ('View/backend/adminView.php');
 			}
 		}
-			else {
-					echo 'Erreur : tous les champs ne sont pas remplis !';
-				}
-		}
-		else {
-			$controller = new Controller();
-			$listPosts = $controller->listPosts();
+		elseif ($_POST['action'] == 'newChapter') {
+			if ($_POST['action'] =='newChapter') {
+				require ('View/backend/newChapter.php');
+			}
 		}
 }
+	else {
+		$controller = new Controller();
+		$listPosts = $controller->listPosts();
+	}
+}
+
 catch(Exception $e) {
 	echo 'Erreur : '. $e->getMessage();
 }
+

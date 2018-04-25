@@ -1,8 +1,8 @@
-<?php 
+<?php
 // class Book
 require_once('Manager.php');
 
-class Chapter 
+class Chapter
 {
 	private $id;
 	private $picture;

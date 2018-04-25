@@ -9,7 +9,7 @@ class Controller
 	{
 		$posts = new ChapterManager();
 		$listPosts = $posts->getAllPosts();
-		require('View/accueilView.php');
+		require('View/homeView.php');
 	}
 
 	public function chapterAction()
@@ -19,10 +19,10 @@ class Controller
 		require('View/chaptersView.php');
 	}
 
-	public function addChapter($id, $number, $picture, $contents)
+	public function addChapter($id, $number, $title, $picture, $contents)
 	{
-		$AddChapter = new ChapterManager();
-		$chapterAdding = dbAddChapter($id, $picture, $number, $contents);
-		require('View/backendView.php');
+		$addChapter = new ChapterManager();
+		$chapterAdding = $addChapter($id, $number, $title, $picture, $contents);
+		require('View/backend/backendView.php');
 	}
 }
