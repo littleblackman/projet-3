@@ -5,10 +5,10 @@
 	<div class="title">
 		<?php echo $chapterAction['number'];?>
 	</div>
-	<img class="picture" img src="<?php echo $chapterAction['picture'];?>" alt="Alaska" title="<?php echo $chapterAction['number'];?>" />
+	<img class="picture" img src="<?= $chapterAction['picture'];?>" alt="Alaska" title="<?= $chapterAction['number'];?>" />
 	<section>
 		<div class="story">
-			<p><?php echo $chapterAction['contents']; ?></p>
+			<p><?= $chapterAction['contents'];?></p>
 		</div>
 	</section>
 </div>

@@ -1,8 +1,8 @@
 <nav>
 	<ul>
-		<li><a href="#">Accueil</a></li>
-		<li><a href="#">Chapitres</a></li>
-		<li><a href="#">A propos</a></li>
-		<li><a href="#">Contact</a></li>
+		<li><a href="index.php?action=listPosts">Accueil</a></li>
+    <li><a href="">Chapitres</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="index.php?action=connexion">Connexion</a></li>
 	</ul>
 </nav>

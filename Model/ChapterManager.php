@@ -18,6 +18,7 @@ class ChapterManager extends Manager
 			$post->setId($elements['id']);
 			$post->setPicture($elements['picture']);
 			$post->setNumber($elements['number']);
+			$post->setTitle($elements['title']);
 			$post->setContents($elements['contents']);
 			$posts[] = $post;
 		}
@@ -34,19 +35,19 @@ class ChapterManager extends Manager
 
 		return $chapter;
 	}
-	public function dbAddChapter($id, $picture, $number, $title, $contents)
+	public function getLastChapters()
 	{
-		$db = $this->dbConnect();
-		$req = $db->prepare('INSERT INTO novel (picture, number, title, contents) VALUES (:picture, :number, :title, :contents)');
-		$chapterAdding = $req->execute(array(
-													'picture' => $picture,
-													'number' => $number,
-													'title' => $title,
-													'contents' => $contents
-												));
-
-		return $chapterAdding;
-
+		$db = $this->dbConnect(); // connexion à la bdd
+		$req = $db->query('SELECT * FROM novel LIMIT 0, 4'); // récupérer les 4 derniers articles
+		$data = $req->fetchAll();
+		foreach ($data as $elements){
+			$lastArticle = new Chapter();
+			$lastArticle->setId($elements['id']);
+			$lastArticle->setTitle($elements['title']);
+			$lastArticle->setNumber($elements['number']);
+			$lastArticles[] = $lastArticle;
+		}
+		return $lastArticles;
 	}
 }
 

@@ -1,39 +1,72 @@
-<?php
+<?
+session_start();
+ini_set('display_errors','on');
+error_reporting(E_ALL);
+
 require_once('Controller/controller.php');
 
-try {
-	if (isset($_GET['action'])) {
-		if ($_GET['action'] == 'listPosts') {
-			$controller = new Controller();
-			$listPosts = $controller->listPosts();
+// 3 roles pour le routeur:
+// - associer la request à un controlleur existant
+// - vérifier les autorisations
+// - cleaner les données
+
+
+// instancier toutes les variables
+$controller = new Controller();
+$error      = 0;
+
+(isset($_GET['action'])) ? $action = $_GET['action'] : $action = "listPosts";
+
+switch ($action) {
+	case 'listPosts':
+		$controller->listPosts();
+		break;
+
+	case 'chapter':
+		if (isset($_GET['id']) && $_GET['id'] >0) {
+			$controller->chapterAction();
+		} else {
+			$error = 1;
 		}
-		elseif ($_GET['action'] == 'chapter') {
-			if (isset($_GET['id']) && $_GET['id'] >0) {
-				$controller = new Controller();
-				$chapterAction = $controller->chapterAction();
-			}
-			else {
-				throw new Exception('Aucun identifiant de billet envoyé');
-			}
+		break;
+
+	case 'connexion':
+	  $controller->connexionAdmin();
+		break;
+
+	case 'login':
+		$controller->login();
+		break;
+
+	case 'adminView':
+		if(isset($_SESSION['admin'])) {
+			$controller->adminEnter();
+		} else {
+			echo 'c mort';
+			$error = 2;
 		}
-		elseif ($_GET['action'] == 'adminView') {
-			if ($_GET['action'] == 'adminView') {
-				require ('View/backend/adminView.php');
-			}
-		}
-		elseif ($_POST['action'] == 'newChapter') {
-			if ($_POST['action'] =='newChapter') {
-				require ('View/backend/newChapter.php');
-			}
-		}
-}
-	else {
-		$controller = new Controller();
-		$listPosts = $controller->listPosts();
-	}
+		break;
+
+	case 'logout':
+		$controller->logout();
+		break;
+
+	case 'newChapter':
+		$controller->addChapters();
+		break;
+
+	default:
+		$controller->get404();
+		break;
 }
 
-catch(Exception $e) {
-	echo 'Erreur : '. $e->getMessage();
+switch ($error) {
+	case 1:
+		echo 'Erreur : aucun identifiant de billet envoyé';
+		break;
+
+	default:
+		break;
 }
+
 
