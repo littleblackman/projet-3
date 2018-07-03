@@ -38,7 +38,7 @@ switch ($action) {
 		$controller->login();
 		break;
 
-	case 'adminView':
+	case 'admin':
 		if(isset($_SESSION['admin'])) {
 			$controller->adminEnter();
 		} else {
@@ -52,7 +52,23 @@ switch ($action) {
 		break;
 
 	case 'newChapter':
+		$controller->newChapter();
+		break;
+
+	case 'addChapter':
 		$controller->addChapters();
+		break;
+
+	case 'allChapters':
+		$controller->listPosts();
+		break;
+
+	case 'edit':
+		if (isset($_GET['id'])) {
+			$controller->edit($_GET['id']);
+		} else {
+			$error = 1;
+		}
 		break;
 
 	default:

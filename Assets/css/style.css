@@ -8,6 +8,28 @@ body {
 	height: 300px;
 	border-radius: 15px;
 }
+#bandeau {
+	background: url('../images/glacier.jpg') no-repeat;
+	background-size: cover;
+	height: 250px;
+	border-radius: 15px;
+	padding-top: 5px;
+}
+
+#title-headerA {
+	margin-top: 15px;
+	color: white;
+	font-size: 1em;
+}
+.navnavbaradmin, ul, li {
+	display: inline;
+	float: left;
+
+}
+.navnavbaradmin nav {
+	display: inline;
+	float: right;
+}
 .logo{
 	height: 55px;
 	width: 45px;
@@ -74,6 +96,9 @@ nav li {
 }
 article {
 	height: 250px;
+}
+section {
+	width: 1200px;
 }
 footer {
 	background-color: #8db877;

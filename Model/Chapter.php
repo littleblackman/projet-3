@@ -6,7 +6,7 @@ class Chapter
 {
 	private $id;
 	private $picture;
-	private $number;
+	private $chapter_number;
 	private $title;
 	private $contents;
 	private $date;
@@ -17,8 +17,8 @@ class Chapter
 	public function getPicture(){
 		return $this->picture;
 	}
-	public function getNumber(){
-		return $this->number;
+	public function getChapterNumber(){
+		return $this->chapter_number;
 	}
 	public function getTitle(){
 		return $this->title;
@@ -35,8 +35,8 @@ class Chapter
 	public function setPicture($picture){
 		$this->picture = $picture;
 	}
-	public function setNumber($number){
-		$this->number = $number;
+	public function setChapterNumber($chapter_number){
+		$this->chapter_number = $chapter_number;
 	}
 	public function setTitle($title){
 		$this->title = $title;

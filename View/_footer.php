@@ -12,17 +12,17 @@
 					<h4>Mes réseaux sociaux</h4>
 					<div id="icones">
 						<a href="#"><img src="Assets/images/facebook-logo.png" alt="facebook"><a/>
-							<a href="#"><img src="Assets/images/instagram-logo.png" alt="instagram"><a />
-								<a href="#"><img src="Assets/images/twitter-logo.png" alt="twitter"><a />
-								</div>
-							</div>
-							<div id="footerright">
-								<h4>Contactez moi</h4>
-								<p>Jean Forteroche<br>
-									25 rue de la poésie<br>
-								75011 PARIS</p>
-							</div>
-						</div>
+						<a href="#"><img src="Assets/images/instagram-logo.png" alt="instagram"><a />
+						<a href="#"><img src="Assets/images/twitter-logo.png" alt="twitter"><a />
+					</div>
+				</div>
+				<div id="footerright">
+					<h4>Contactez moi</h4>
+						<p>Jean Forteroche<br>
+						25 rue de la poésie<br>
+						75011 PARIS</p>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>

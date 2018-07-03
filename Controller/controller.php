@@ -5,28 +5,18 @@ require_once('Model/ChapterManager.php');
 class Controller
 {
 
- public function mapage()
- {
- 	require ('View/mapage.php');
- }
-
- public function hello()
- {
- 	require ('View/hello.php');
- }
-
 	public function listPosts()
 	{
-		$posts = new ChapterManager();
-		$listPosts = $posts->getAllPosts();
-		require('View/homeView.php');
+		$manager = new ChapterManager();
+		$listPosts = $manager->getAllPosts();
+		require('View/home.php');
 	}
 
 	public function chapterAction()
 	{
-		$chapter = new ChapterManager();
-		$chapterAction = $chapter->getChapters($_GET['id']);
-		require('View/chaptersView.php');
+		$manager = new ChapterManager();
+		$chapterAction = $manager->getChapters($_GET['id']);
+		require('View/chapters.php');
 	}
 	public function connexionAdmin()
 	{
@@ -42,15 +32,14 @@ class Controller
 				$_SESSION['admin'] = true;
 				//$_SESSION['role']  = "admin";
 			}
-			header('location:index.php?action=adminView');
+			header('location:index.php?action=admin');
 		}
   }
 
   public function logout() {
   	session_unset();
-		header('location:index.php?action=homeView.php');
+		header('location:index.php?action=listPosts');
   }
-
 
 	public function adminEnter()
 	{
@@ -61,12 +50,38 @@ class Controller
 		$lastArticles = $manager->getLastChapters();
 		// permet l'ajout d'un nouvel article
 
-		require('View/backend/adminView.php');
+		require('View/backend/admin.php');
+	}
+	public function newChapter()
+	{
+		require('View/backend/newChapter.php');
 	}
 	public function addChapters()
 	{
+		$title = $_POST['title'];
+		$chapter_number = $_POST['chapter_number'];
+		$contents = $_POST['contents'];
+
+		$manager = new ChapterManager();
+		$manager->addChapter($title, $chapter_number, $contents);
 
 		require('View/backend/newChapter.php');
+	}
+	public function allChapters()
+	{
+		$manager = new ChapterManager();
+		$manager->getAllPosts();
+	}
+	public function edit()
+	{
+				$manager = new ChapterManager();
+				$edit = $manager->editChapter($_GET['id']);
+
+		require('View/backend/edit.php');
+	}
+	public function getContact()
+	{
+		require('View/contact.php');
 	}
 	public function get404()
 	{

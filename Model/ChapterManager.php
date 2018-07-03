@@ -17,7 +17,7 @@ class ChapterManager extends Manager
 			$post = new Chapter();
 			$post->setId($elements['id']);
 			$post->setPicture($elements['picture']);
-			$post->setNumber($elements['number']);
+			$post->setChapterNumber($elements['chapter_number']);
 			$post->setTitle($elements['title']);
 			$post->setContents($elements['contents']);
 			$posts[] = $post;
@@ -28,7 +28,7 @@ class ChapterManager extends Manager
 	public function getChapters($id)
 	{
 		$db = $this->dbConnect();
-		$req = $db->prepare('SELECT id, picture, number, contents FROM novel WHERE id = :id');
+		$req = $db->prepare('SELECT id, picture, chapter_number, contents FROM novel WHERE id = :id');
 		$req->bindValue(':id', $id, PDO::PARAM_INT);
 		$req->execute();
 		$chapter = $req->fetch();
@@ -44,10 +44,28 @@ class ChapterManager extends Manager
 			$lastArticle = new Chapter();
 			$lastArticle->setId($elements['id']);
 			$lastArticle->setTitle($elements['title']);
-			$lastArticle->setNumber($elements['number']);
+			$lastArticle->setChapterNumber($elements['chapter_number']);
 			$lastArticles[] = $lastArticle;
 		}
 		return $lastArticles;
+	}
+		public function addChapter($title, $chapter_number, $contents)
+		{
+		$db = $this->dbConnect();
+		$query = "INSERT INTO novel SET title ='".$title."', chapter_number ='".$chapter_number."', contents ='".$contents."'";
+		$req = $db->query($query);
+		$req->execute();
+		return $req;
+	}
+	public function editChapter($id)
+	{
+		$db = $this->dbConnect();
+		$req = $db->prepare('UPDATE novel SET chapter_number = :chapter_number, title = :title, contents = :contents WHERE id = :id');
+		$req->bindValue(':id', $id, PDO::PARAM_INT);
+		$req->execute();
+		$edit = $req->fetch();
+
+		return $edit;
 	}
 }
 
