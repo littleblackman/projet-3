@@ -71,6 +71,10 @@ switch ($action) {
 		}
 		break;
 
+	case 'contact':
+		$controller->getContact();
+		break;
+
 	default:
 		$controller->get404();
 		break;

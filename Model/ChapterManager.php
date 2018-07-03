@@ -63,9 +63,9 @@ class ChapterManager extends Manager
 		$req = $db->prepare('UPDATE novel SET chapter_number = :chapter_number, title = :title, contents = :contents WHERE id = :id');
 		$req->bindValue(':id', $id, PDO::PARAM_INT);
 		$req->execute();
-		$edit = $req->fetch();
+		$edit = $req;
 
-		return $edit;
+		return $req;
 	}
 }
 
