@@ -72,10 +72,10 @@ class Controller
 		$manager = new ChapterManager();
 		$manager->getAllPosts();
 	}
-	public function edit()
+	public function edit($chapter_id)
 	{
 				$manager = new ChapterManager();
-				$edit = $manager->editChapter($_GET['id']);
+				$edit = $manager->editChapter($chapter_id);
 
 		require('View/backend/edit.php');
 	}
